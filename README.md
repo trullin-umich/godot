@@ -76,3 +76,15 @@ for more information.
 [![Code Triagers Badge](https://www.codetriage.com/godotengine/godot/badges/users.svg)](https://www.codetriage.com/godotengine/godot)
 [![Translate on Weblate](https://hosted.weblate.org/widgets/godot-engine/-/godot/svg-badge.svg)](https://hosted.weblate.org/engage/godot-engine/?utm_source=widget)
 [![TODOs](https://badgen.net/https/api.tickgit.com/badgen/github.com/godotengine/godot)](https://www.tickgit.com/browse?repo=github.com/godotengine/godot)
+
+## Fog - Fork
+
+Flipped bool to change fog opacacy in transparent background of viewport.
++
+Tools
+- `tools/lint_all_cpp.py`: Recursively runs `cpplint` on all `.cpp` files, excluding thirdparty dependencies, to ensure code style consistency.
+- `tools/collect_pixel_colors_and_build.py`: Collects screen pixel color data and triggers a build of the engine through the command line.
+
+These tools support code quality assurance and simplify the development and testing workflow.
+
+(work in progress ignore for now)
